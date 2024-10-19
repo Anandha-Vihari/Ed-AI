@@ -29,7 +29,7 @@ def show_details(selected_image):
 
 def Learn_page():
     directory_Featured = r"Static_Files\Learn_Page\Featured"
-    directory_All_Courses = r"Static_Files\Learn_Page\All_Courses"
+    directory_All_Courses = r"/workspaces/Ed-AI/Static_Files/Learn_Page/All_Courses"
     directory_Recommendation = r"dynamic files\Main_pages\Recommendations\Learn_page_recommendation"
 
     query_params = st.query_params
